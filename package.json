@@ -1,0 +1,19 @@
+{
+  "name": "jsspace",
+  "version": "1.0.0",
+  "description": "Workspace for training my javascript knowedge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./public/assets/javascript/test.js"
+  },
+  "author": "ElCoon",
+  "license": "ISC",
+  "devDependencies": {
+    "coffee-script": "^1.11.0",
+    "colors": "^1.1.2",
+    "gulp": "^3.9.1",
+    "gulp-coffee": "^2.3.2",
+    "gulp-util": "^3.0.7"
+  }
+}
