@@ -1,5 +1,11 @@
-var math;
+var events, obj;
 
-math = require("./module");
+events = require("events");
 
-console.log(math.add(1, 3));
+obj = new events();
+
+obj.on("dring", function() {
+  return console.log("Ca sonne !!!!");
+});
+
+obj.emit("dring");

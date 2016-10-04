@@ -1,2 +1,6 @@
-math = require "./module"
-console.log math.add 1, 3
+events = require "events"
+obj = new events()
+obj.on "dring", ->
+  console.log "Ca sonne !!!!"
+
+obj.emit("dring")
